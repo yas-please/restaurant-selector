@@ -36,7 +36,7 @@ end = "     "
 
 
 if "pizza" in mood_input: 
-	response_1 = raw_input(offer_1 + str(random.choice(pizza)) + end)
+	response_1 = input(offer_1 + str(random.choice(pizza)) + end)
 	if "y" in response_1:
 		print(good_job)		
 	else: 
