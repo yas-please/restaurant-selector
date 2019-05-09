@@ -30,7 +30,10 @@ offer_3 = "Sorry about that.  Perhaps you'd prefer "
 good_job = "Excellent choice !  Enjoy your meal =)"
 good_job2 = "Enjoy your meal =)"
 bad_job = "I'm sorry I couldn't suggest a good idea.  Hopefully you've narrowed down your options !"
+#I'm going to add a bunch of empty space at the end of each line for ease of distinction between
+#my prompts/printed statements and my inputs.
 end = "     "
+
 
 if "pizza" in mood_input: 
 	response_1 = raw_input(offer_1 + str(random.choice(pizza)) + end)
